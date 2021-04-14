@@ -2,8 +2,8 @@
 
 namespace BizDaysCalc
 {
-    public interface IRule 
+    public interface IRule
     {
-       bool CheckIsBusinessDay(DateTime date);
+        bool CheckIsBusinessDay(DateTime date);
     }
 }

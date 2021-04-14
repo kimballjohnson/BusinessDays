@@ -1,6 +1,6 @@
-﻿using System;
+﻿using BizDaysCalc;
+using System;
 using System.Collections.Generic;
-using BizDaysCalc;
 using Xunit;
 
 namespace BizDaysCalcTests
@@ -17,7 +17,8 @@ namespace BizDaysCalcTests
 
         public static IEnumerable<object[]> Holidays
         {
-            get {
+            get
+            {
                 yield return new object[] { true, new DateTime(2021, 4, 14) };
                 yield return new object[] { true, new DateTime(2021, 4, 15) };
                 yield return new object[] { true, new DateTime(2021, 4, 16) };

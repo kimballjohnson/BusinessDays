@@ -15,7 +15,7 @@ namespace BizDaysCalc
         {
             for (int day = 0; day <= USHolidays.GetUpperBound(0); day++)
             {
-                if (date.Month == USHolidays[day, 0] && date.Day == USHolidays[day, 1]) return false; 
+                if (date.Month == USHolidays[day, 0] && date.Day == USHolidays[day, 1]) return false;
             }
             return true;
         }

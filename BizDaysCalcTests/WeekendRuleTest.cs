@@ -1,14 +1,16 @@
-using System;
-using Xunit;
 using BizDaysCalc;
+using System;
 using System.Collections.Generic;
+using Xunit;
 
 namespace BizDaysCalcTests
 {
     public class WeekendRuleTest
     {
-        public static IEnumerable<object[]> Days {
-            get {
+        public static IEnumerable<object[]> Days
+        {
+            get
+            {
                 yield return new object[] { true, new DateTime(2021, 4, 14) };
                 yield return new object[] { true, new DateTime(2021, 4, 15) };
                 yield return new object[] { true, new DateTime(2021, 4, 16) };
