@@ -13,8 +13,8 @@ namespace BizDaysCalc
         }
         public bool IsBusinessDay(DateTime date)
         {
-            foreach (var rule in rules) if (!rule.CheckIsBusinessDay(date))
-                    return false; return true;
+            foreach (var rule in rules) if (!rule.CheckIsBusinessDay(date)) return false; 
+            return true;
         }
     }
 }
