@@ -1,11 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using BizDaysCalc;
+using Xunit;
 
 namespace BizDaysCalcTests
 {
     public class USHolidayTest
     {
+        private Calculator _calculator;
+        public USHolidayTest()
+        {
+            _calculator = new Calculator();
+            _calculator.AddRule(new HolidayRule());
+            Console.WriteLine("In USHolidayTest constructor");
+        }
+
         public static IEnumerable<object[]> Holidays
         {
             get {
@@ -22,12 +31,21 @@ namespace BizDaysCalcTests
             }
         }
 
-        private Calculator calculator;
-
-        public USHolidayTest()
+        [Xunit.Theory]
+        [InlineData("2021-04-20")]
+        [InlineData("2021-04-21")]
+        public void TestNonHolidays(string date)
         {
-            calculator = new Calculator();
-            calculator.AddRule(new HolidayRule());
+            Assert.True(_calculator.IsBusinessDay(DateTime.Parse(date)));
+            Console.WriteLine($"In TestNonHolidays {date}");
+        }
+
+        [Theory]
+        [MemberData(nameof(Holidays))]
+        public void TestHolidays(DateTime date)
+        {
+            Assert.False(_calculator.IsBusinessDay(date));
+            Console.WriteLine($"In TestHolidays {date:yyyy-MM-dd}");
         }
     }
 }
