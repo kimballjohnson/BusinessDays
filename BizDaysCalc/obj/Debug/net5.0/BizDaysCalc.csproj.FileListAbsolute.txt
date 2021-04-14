@@ -1,0 +1,11 @@
+E:\DEV\TRN\BusinessDays\BizDaysCalc\bin\Debug\net5.0\BizDaysCalc.deps.json
+E:\DEV\TRN\BusinessDays\BizDaysCalc\bin\Debug\net5.0\BizDaysCalc.dll
+E:\DEV\TRN\BusinessDays\BizDaysCalc\bin\Debug\net5.0\ref\BizDaysCalc.dll
+E:\DEV\TRN\BusinessDays\BizDaysCalc\bin\Debug\net5.0\BizDaysCalc.pdb
+E:\DEV\TRN\BusinessDays\BizDaysCalc\obj\Debug\net5.0\BizDaysCalc.GeneratedMSBuildEditorConfig.editorconfig
+E:\DEV\TRN\BusinessDays\BizDaysCalc\obj\Debug\net5.0\BizDaysCalc.AssemblyInfoInputs.cache
+E:\DEV\TRN\BusinessDays\BizDaysCalc\obj\Debug\net5.0\BizDaysCalc.AssemblyInfo.cs
+E:\DEV\TRN\BusinessDays\BizDaysCalc\obj\Debug\net5.0\BizDaysCalc.csproj.CoreCompileInputs.cache
+E:\DEV\TRN\BusinessDays\BizDaysCalc\obj\Debug\net5.0\BizDaysCalc.dll
+E:\DEV\TRN\BusinessDays\BizDaysCalc\obj\Debug\net5.0\ref\BizDaysCalc.dll
+E:\DEV\TRN\BusinessDays\BizDaysCalc\obj\Debug\net5.0\BizDaysCalc.pdb
