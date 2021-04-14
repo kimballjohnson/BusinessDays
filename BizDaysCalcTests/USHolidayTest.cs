@@ -8,7 +8,7 @@ namespace BizDaysCalcTests
     public class USHolidayTest
     {
         private Calculator _calculator;
-        public USHolidayTest()
+        public USHolidayTest() 
         {
             _calculator = new Calculator();
             _calculator.AddRule(new HolidayRule());

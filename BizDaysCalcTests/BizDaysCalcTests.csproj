@@ -23,4 +23,9 @@
     <ProjectReference Include="..\BizDaysCalc\BizDaysCalc.csproj" />
   </ItemGroup>
 
+	<ItemGroup>
+		<Compile Remove="USHolidayTest.cs" />
+		<Compile Remove="WeekendRuleTest.cs" />
+	</ItemGroup>
+
 </Project>
